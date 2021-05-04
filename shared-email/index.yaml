@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  shared-email:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-05-04T07:08:10.477392107-07:00"
+    dependencies:
+    - condition: gcloud-sqlproxy.enabled
+      name: gcloud-sqlproxy
+      repository: https://charts.rimusz.net
+      version: ~0.19.13
+    description: Helm chart for Stanford Shared E-Mail Request Web Application
+    digest: 3bc23e27ec59cc807a12471f789fa4a275ba0d09ff06da7b3f6d61ec11600a61
+    name: shared-email
+    type: application
+    urls:
+    - https://macrotex.github.io/helm-charts/shared-email/shared-email-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-05-04T07:08:10.474847517-07:00"
